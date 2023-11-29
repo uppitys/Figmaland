@@ -1,0 +1,186 @@
+@media(max-width:1166px) {
+
+    .logo {
+        left: 50%;
+    }
+}
+
+@media (max-width:875px) {
+
+    .nav__list {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: -100%;
+        right: -100%;
+        transform: rotate(-52deg);
+        z-index: 999;
+        background: rgba(3, 4, 38, 0.8);
+        transition: 0.7s;
+        border-radius: 0 0 25px 25px;
+
+    }
+
+    .nav__list a {
+        font-size: 27px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .burger:hover ~ .nav__list {
+        top: 0;
+        transform: rotate(0deg);
+        right: 0;
+    }
+    
+    .nav__social {
+        display: none;
+    }
+
+    .logo {
+        top: 22px;
+        left: 25px;
+    }
+
+    .subscribe__text {
+        text-align: center;
+    }
+
+    .subscribe__text .main__title {
+        text-align: center;
+    }
+
+    .subscribe-form input {
+        width: 100%;
+        max-width: 353px;
+    }
+
+    .subscribe-form .btn {
+        width: 100%;
+        max-width: 353px;
+        margin-top: 12px;
+    }
+
+    .partners {
+        padding: 65px 40px;
+    }
+}
+
+@media (max-width:660px) {
+
+    h1 {
+        text-align: center;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 55px;
+        font-family: GR;
+    }
+
+    .desctop__text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .desctop__text .main__title, .main__par {
+        text-align: center;
+    }
+
+    .desctop__text .main__par {
+        text-align: center;
+    }
+    
+    .footer .nav__social {
+        display: block;
+        display: flex;
+        margin: auto;
+        padding-top: 46px;
+    }
+
+    .partners__icons img:first-of-type {
+        display: block; 
+    }
+
+    .partners__icons img:nth-of-type(2) {
+        display: block;
+        margin: 30px 0;
+    }
+
+    .partners__icons img:nth-of-type(3) {
+        display: block;
+    }
+
+    iframe {
+        display: none;
+    }
+}
+
+@media (max-width:425px) {
+
+    .header {
+        background: url(/assets/img/hedaer-bg-poster.webp) no-repeat;
+    }
+
+    .features {
+        margin: 91px 0 188px;
+    }
+
+    .features-info {
+        margin: 70px 0 90px;
+    }
+
+    .desctop__text {
+        padding: 0;
+    }
+
+    .video {
+        display: none;
+    }
+
+    .partners__icons img {
+        display: none;
+    }
+
+    .contacts__active-map-icon {
+        flex-direction: column;
+        align-items: start;
+        order: -1;
+    }
+
+    .contacts__active-map-icon a {
+        align-items: start;
+        text-align: left;
+    }
+
+    .contacts__active-map-icon p {
+        text-align: left;
+    }
+
+    .contacts__active-map {
+        order: -1;
+    }
+
+    .contacts__active-map-social {
+        order: -2;
+        align-self: center;
+    }
+
+    .contacts__active form input {
+        max-width: 280px;
+        margin: auto;
+    }
+
+    .contacts__active form textarea {
+        width: 280px;
+    }
+    
+    .footer__list {
+        flex-wrap: wrap;
+    }
+}
