@@ -1,4 +1,4 @@
-@import url(fonts.css);
+@import url(../assets/fonts.css);
 
 * {
     margin: 0;
@@ -25,7 +25,7 @@ body {
 }
 
 .header {
-    background: url(/assets/img/introbg.webp);
+    background: url(../assets/img/introbg.webp);
     min-height: 930px;
     background-position: center;
     background-size: cover;
