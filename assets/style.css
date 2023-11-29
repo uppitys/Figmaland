@@ -25,7 +25,7 @@ body {
 }
 
 .header {
-    background: url(/assets/img/introbg.jpg);
+    background: url(/assets/img/introbg.webp);
     min-height: 930px;
     background-position: center;
     background-size: cover;
