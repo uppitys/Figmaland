@@ -124,7 +124,7 @@
 @media (max-width:425px) {
 
     .header {
-        background: url(/assets/img/hedaer-bg-poster.webp) no-repeat;
+        background: url(../assets/img/hedaer-bg-poster.webp)
     }
 
     .features {
