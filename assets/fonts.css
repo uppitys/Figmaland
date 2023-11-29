@@ -1,9 +1,9 @@
 @font-face {
     font-family: GB;
-    src: url(/assets/fonts/Graphik-Bold-Trial.otf);
+    src: url(../assets/fonts/Graphik-Bold-Trial.otf);
     font-weight: 700;
 }
 @font-face {
     font-family: GR;
-    src: url(/assets/fonts/Graphik-Regular-Trial.otf);
+    src: url(../assets/fonts/Graphik-Regular-Trial.otf);
 }
